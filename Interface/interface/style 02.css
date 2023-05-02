@@ -1,0 +1,61 @@
+/*importação de fonte offline pelo download*/
+@font-face {
+    src: url(Fontes/Acme-Regular.ttf);
+   font-family: 'Acme', sans-serif;
+}
+* {
+margin:0 auto;
+padding: 0; 
+box-sizing: border-box;  /*tirou a lista*/
+font-family: 'Acme', sans-serif;
+
+}
+body{
+     background-color: rgb(101, 42, 132);
+}
+#menu {
+    background-color: rgb(101, 42, 132);
+}
+#menu ul{
+   max-width: 800px;
+   list-style: none;
+   padding: 0;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a{
+   color: rgb(8, 8, 8);
+   padding: 20px; /*espaçamento das laterais*/
+   display: inline-block; /*cria caixas*/
+   text-decoration:none ; /*nome cria um sobreamento*/
+   transition: background.4s;  /*4s muda os vetores*/
+}
+#menu ul li a:hover{
+   background-color: rgb(101, 42, 132);
+}
+#menu ul li:first-child a {
+   float: left;
+   background-color: rgb(255, 203, 31);
+} 
+/* Estrutura footer*/
+.rodape{
+    background-color: rgb(101, 42, 132);
+    clear: both;
+    padding: 30px;;
+    color: rgb(0, 0, 0);
+    font: size 20px;;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.ícones li {
+   display: inline-block;
+   float: right;
+   width: 20px;;
+   height: 20px;;
+}
+header {
+   background-color: rgb( 255, 203, 31);
+
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" type="text/css" href="./style.css"/> 
+
+        <style>
+       body{
+         background-color: grey;
+         color: beige;
+}
+
+        </style>
+</head>
+<body>
+    <h2 align="center">Formulário Militar</h2>
+    <h3>Titulo 01.</h3>
+    <h4>Titulo 02.</h4>
+
+      <!--Formulário-->
+   <form action="" method="post"
+   <p><b>Nome: <input type="text" name="Nome" size="" placeholder="Coloque seu Nome"/></b></p>
+   <!-- size para tamanho do quadrado / placeholder para colocar nome na caixinha de ação / input para ativar modo formulario-->
+   <b><p>Telefone: <input type="tel" name="Telefone" placeholder="(00)0000-0000" maxlength="14"/></p></b>
+   <b><p>E-mail: <input type="e-mail" name="e-mail" placeholder="E-mail"</p></b>
+   <b><p>Endereço: <input type="text" name="Endereço" placeholder="Endereço"</p></b>
+   <b><p>Data de Nascimento: <input type="date" placeholder="date"</p></b>
+   <b><p>Senha: <input type="password" name="Senha" placeholder="Senha" maxlength="8"</p></b>
+   <!--estrutura select-->
+   <b><p>Nacionalidade: <select name="Nacionalidade"></p></b>
+    <option></option>
+     <option value="Brasileira">Brasileira</option>
+    <option value="Argentino">Argentino</option>
+    <option value="Baiana">Baiana</option>
+    <option value="Indiana">Indiana</option>
+   </select>
+</p>
+
+<!-- estrutura da identificação de sexo-->
+   <b><p>
+   Sexo: <input type="radio" name="sexo" value=""/>Masculino
+   <input type="radio" name="sexo" value/>Feminino
+   <input type="radio" name="sexo" value/>Outros
+   </p></b>
+
+   <!--Comentario-->
+<p> Comentários: <br />
+    <textarea name="Comentarios" cols="30" rows="3"></textarea>
+
+</p>
+ <!-- estrutura de checkbox-->
+ <p>
+   <input type="checkbox" name="Termo" value="Termo"/>
+   Aceito os termos de condições do formulário
+ </p>
+  <!--Botões de envio-->
+ <input type="reset" value="Limpar"/>
+ <input type="submit" value="Enviar" name="Enviar"/>
+</form>
+   <!--Formulario com caixas -->
+   <fieldset>
+   <legend>Dados Pessoais</legend>
+   <label>Nome: <input type="text" name="name" /></label>
+         <br />
+         <br />
+         <label> Idade: <input type="number" name="idade"></label>
+   </fieldset>
+
+
+</body>
+</html>
